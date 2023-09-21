@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.headerimages {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    height: 150px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.score {
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    font-size: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 220px;
+}
+
+.options img {
+border: 4px solid black;
+transition: transform .1s;
+}
+
+.options img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.startbutton {
+    font-size: 36px;
+    height: 50px;
+    width: 300px;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+  
